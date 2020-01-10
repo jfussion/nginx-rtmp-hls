@@ -10,4 +10,4 @@ ADD start.sh /start.sh
 RUN mkdir -p /opt/data/hls
 
 RUN ["chmod", "+x", "/start.sh"]
-CMD start.sh
+CMD /start.sh
